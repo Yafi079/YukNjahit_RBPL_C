@@ -1,0 +1,7 @@
+Laravel Versi 8.83.26
+
+Jika Laravel yang digunakan versi nya berbeda dan menyebabkan eror Undefined type "Auth". 
+Maka Perlu diubah Use Auth menjadi use Illuminate\Support\Facades\Auth pada setiap Controller.
+
+hal tersebut disebabkan perbedaan versi Laravel 
+
